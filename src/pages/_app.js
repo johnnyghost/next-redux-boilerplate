@@ -15,11 +15,7 @@ class App extends React.Component {
   }
   render() {
     const { Component, pageProps } = this.props;
-    return (
-      <React.Fragment>
-        <Component {...pageProps} />
-      </React.Fragment>
-    );
+    return <Component {...pageProps} />;
   }
 }
 

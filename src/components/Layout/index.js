@@ -1,18 +1,12 @@
 import React from 'react';
 import styles from './styles.css';
 
-const propTypes = {};
-const defaultProps = {};
-
 const Page = ({ children }) => (
-  <React.Fragment>
+  <div className={styles.wrapper}>
     <header className={styles.header}>the header</header>
-    {children}
+    <div className={styles.content}>{children}</div>
     <footer className={styles.footer}>the footer</footer>
-  </React.Fragment>
+  </div>
 );
-
-Page.propTypes = propTypes;
-Page.defaultProps = defaultProps;
 
 export default Page;

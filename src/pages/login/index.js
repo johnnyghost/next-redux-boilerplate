@@ -4,17 +4,17 @@ import Layout from 'components/Layout';
 const propTypes = {};
 const defaultProps = {};
 
-class Search extends React.Component {
+class LoginPage extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    return <Layout>Search</Layout>;
+    return <Layout>LoginPage</Layout>;
   }
 }
 
-Search.propTypes = propTypes;
-Search.defaultProps = defaultProps;
+LoginPage.propTypes = propTypes;
+LoginPage.defaultProps = defaultProps;
 
-export default Search;
+export default LoginPage;
