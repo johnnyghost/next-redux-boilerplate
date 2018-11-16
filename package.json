@@ -1,0 +1,30 @@
+{
+  "name": "next-redux-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@mobilabsolutions/eslint-config": "^1.1.1",
+    "@mobilabsolutions/eslint-config-react": "^1.1.13",
+    "@zeit/next-css": "^1.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.9.0",
+    "prettier": "^1.15.2"
+  },
+  "scripts": {
+    "dev": "node server",
+    "build": "next build src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
