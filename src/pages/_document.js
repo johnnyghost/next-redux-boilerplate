@@ -1,7 +1,9 @@
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 
-<Document />
+/**
+ * <Document />
+ */
 class extends Document {
   render() {
     return (
