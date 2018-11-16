@@ -1,6 +1,8 @@
 import React from 'react';
-import 'assets/index.css';
 
+/**
+ *  <App/>
+ */
 class App extends React.Component {
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};
