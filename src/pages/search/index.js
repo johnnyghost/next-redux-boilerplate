@@ -1,20 +1,10 @@
 import React from 'react';
-import Layout from 'components/Layout';
-
-const propTypes = {};
-const defaultProps = {};
+import AuthenticatedLayout from 'Layouts/Authenticated';
 
 class Search extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    return <Layout>Search</Layout>;
+    return <AuthenticatedLayout>Search</AuthenticatedLayout>;
   }
 }
-
-Search.propTypes = propTypes;
-Search.defaultProps = defaultProps;
 
 export default Search;

@@ -10,7 +10,8 @@ const PORT = process.env.PORT ? process.env.PORT : 3000;
 const expressConfig = routes => {
   const app = express();
 
-  // request logging. dev: console | production: file
+  // request logging.
+  // dev: console | production: file
   app.use(morgan(logs));
 
   // parse body params and

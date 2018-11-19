@@ -1,20 +1,13 @@
 import React from 'react';
-import Layout from 'components/Layout';
+import ProtectedLayout from 'Layouts/Protected';
 
-const propTypes = {};
-const defaultProps = {};
-
+/**
+ *
+ */
 class LoginPage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    return <Layout>LoginPage</Layout>;
+    return <ProtectedLayout>LoginPage</ProtectedLayout>;
   }
 }
-
-LoginPage.propTypes = propTypes;
-LoginPage.defaultProps = defaultProps;
 
 export default LoginPage;
