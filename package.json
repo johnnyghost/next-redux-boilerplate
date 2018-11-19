@@ -25,6 +25,7 @@
     "morgan": "^1.9.1",
     "nodemon": "^1.18.6",
     "postcss-preset-env": "^6.4.0",
+    "postcss-variables-loader": "^5.0.1",
     "prettier": "^1.15.2"
   },
   "scripts": {

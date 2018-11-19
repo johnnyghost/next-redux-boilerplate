@@ -1,2 +1,6 @@
+/* reset */
 @import '~normalize.css/normalize.css';
+/* variables */
+@import 'colors.config.css';
+/* styles */
 @import 'styles.css';
