@@ -1,5 +1,5 @@
 import React from 'react';
-import AuthenticatedLayout from 'Layouts/Authenticated';
+import AuthenticatedLayout from 'layouts/Authenticated';
 
 class Search extends React.Component {
   render() {

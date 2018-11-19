@@ -1,5 +1,5 @@
 import React from 'react';
-import ProtectedLayout from 'Layouts/Protected';
+import ProtectedLayout from 'layouts/Protected';
 
 /**
  *
