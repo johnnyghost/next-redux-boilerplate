@@ -1,9 +1,14 @@
 import React from 'react';
+import { List } from 'modules/list';
 import AuthenticatedLayout from 'layouts/Authenticated';
 
 class Search extends React.Component {
   render() {
-    return <AuthenticatedLayout>Search</AuthenticatedLayout>;
+    return (
+      <AuthenticatedLayout>
+        <List />
+      </AuthenticatedLayout>
+    );
   }
 }
 
