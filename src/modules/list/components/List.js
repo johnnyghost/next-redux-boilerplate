@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import withObservableStream from 'core/hoc/withObservableStream';
-import { list$, addItem, updateInput } from '../store/list';
+import { list$, addItem, updateInput } from '../services/list';
 
 const propTypes = { items: PropTypes.array.isRequired };
 const defaultProps = { items: [], input: '' };
