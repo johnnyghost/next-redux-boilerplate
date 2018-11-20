@@ -1,4 +1,11 @@
 import List from './components/List';
 
-export { list$, addItem, updateInput } from './services/list';
-export { List };
+export {
+  // components
+  List,
+  // store observable
+  list$,
+  // services
+  addItem,
+  updateInput
+};
