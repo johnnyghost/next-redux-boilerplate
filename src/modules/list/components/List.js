@@ -33,9 +33,9 @@ const List = props => {
 
   return (
     <React.Fragment>
-      {renderList()}
       {renderInput()}
       <button onClick={onAddItemClick}>add item</button>
+      {renderList()}
     </React.Fragment>
   );
 };

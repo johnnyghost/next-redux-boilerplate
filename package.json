@@ -12,7 +12,7 @@
     "rxjs": "^6.3.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.5",
+    "@babel/core": "^7.2.0",
     "@mobilabsolutions/eslint-config": "^1.1.1",
     "@mobilabsolutions/eslint-config-react": "^1.1.13",
     "@zeit/next-css": "^1.0.1",
@@ -24,10 +24,10 @@
     "cors": "^2.8.5",
     "eslint": "^5.9.0",
     "morgan": "^1.9.1",
-    "nodemon": "^1.18.6",
+    "nodemon": "^1.18.7",
     "postcss-preset-env": "^6.4.0",
     "postcss-variables-loader": "^5.0.1",
-    "prettier": "^1.15.2"
+    "prettier": "^1.15.3"
   },
   "scripts": {
     "dev": "nodemon server",
